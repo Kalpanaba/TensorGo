@@ -26,7 +26,7 @@ const InvoiceList = () => {
       <ul className="invoice-list">
         {invoices.map((invoice) => (
           <li key={invoice.id}>
-            ID: {invoice.id}, Amount: ${invoice.amount}, Due Date: {invoice.dueDate}, Recipient: {invoice.recipient}
+            ID: {invoice.userId}, Amount: ${invoice.amount}, Due Date: {invoice.dueDate}, Recipient: {invoice.recipient}
           </li>
         ))}
       </ul>
