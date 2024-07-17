@@ -28,7 +28,7 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
   .then(async () => {
     console.log('MongoDB connected');
 
-    const invoices = [
+  const invoices = [
       { userId: '10982', amount: 200, dueDate: new Date('2024-07-10'), recipient: 'kalpanabammidi123@gmail.com', isPaid: false },
       { userId: '10983', amount: 150, dueDate: new Date('2024-07-12'), recipient: 'kalpanabammidi123@gmail.com', isPaid: false },
       { userId: '10984', amount: 100, dueDate: new Date('2024-07-15'), recipient: 'kalpanabammidi123@gmail.com', isPaid: false },
